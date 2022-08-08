@@ -1,3 +1,5 @@
+//Converting a Character Array into String
+//code contributed by Meghana M.R.
 import java.io.*;
 import java.lang.*;
 import java.util.*;
