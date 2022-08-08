@@ -1,3 +1,5 @@
+//Few ways to declare a STRING
+//Code contributed by Meghana M.R.
 import java.io.*;
 import java.lang.*;
 import java.util.*;
