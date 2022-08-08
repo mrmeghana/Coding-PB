@@ -1,0 +1,24 @@
+//To print substring  of a string
+//replace() method
+//toLowerCase()
+//toUpperCase()
+//Code contributed by Meghana M.R.
+import java.io.*;
+import java.lang.*;
+import java.util.*;
+public class SUBSTRING
+{
+    public static void main(String[] args)
+    {
+        String str=new String("Meghana M.R. IAS");
+        //by using substring
+        System.out.println(str.substring(0,7));
+        System.out.println(str.substring(8,12));
+        //replace() method
+        System.out.println(str.replace('a','e'));
+        //toLowerCase
+        System.out.println(str.toLowerCase());
+        System.out.println(str.toUpperCase());
+
+    }
+}
