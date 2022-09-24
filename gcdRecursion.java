@@ -6,23 +6,19 @@ public class gcdRecursion
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
-        int T=sc.nextInt();
-        while(T--!=0)
-        {
-            int N=sc.nextInt();
-            int P=sc.nextInt();
-            System.out.println(gcd(N,P));
-        }
+        int num1,num2;
+        num1=sc.nextInt();
+        num2=sc.nextInt();
+        System.out.println(gcd(num1,num2));
     }
-    static int gcd(int N,int P)
+    static int gcd(int num1,int num2)
     {
-        if(P!=0)
+        if(num2!=0)
         {
-            return gcd(P ,N%P);
+            return gcd(num2,num1%num2);
         }
-        else 
-        {
-            return N;
+        else{
+            return num1;
         }
     }
 }
